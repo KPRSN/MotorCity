@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E309727E192FB7060002ADCA /* Car1_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097276192FB7060002ADCA /* Car1_blue.png */; };
+		E309727F192FB7060002ADCA /* Car1_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097277192FB7060002ADCA /* Car1_gold.png */; };
+		E3097280192FB7060002ADCA /* Car1_green.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097278192FB7060002ADCA /* Car1_green.png */; };
+		E3097281192FB7060002ADCA /* Car1_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097279192FB7060002ADCA /* Car1_red.png */; };
+		E3097282192FB7060002ADCA /* Car2_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E309727A192FB7060002ADCA /* Car2_blue.png */; };
+		E3097283192FB7060002ADCA /* Car2_green.png in Resources */ = {isa = PBXBuildFile; fileRef = E309727B192FB7060002ADCA /* Car2_green.png */; };
+		E3097284192FB7060002ADCA /* Car2_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E309727C192FB7060002ADCA /* Car2_red.png */; };
+		E3097285192FB7060002ADCA /* Car2_silver.png in Resources */ = {isa = PBXBuildFile; fileRef = E309727D192FB7060002ADCA /* Car2_silver.png */; };
+		E309728B192FB70F0002ADCA /* RoadTile_Blank.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097286192FB70F0002ADCA /* RoadTile_Blank.png */; };
+		E309728C192FB70F0002ADCA /* RoadTile_FourWay.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097287192FB70F0002ADCA /* RoadTile_FourWay.png */; };
+		E309728D192FB70F0002ADCA /* RoadTile_Strait.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097288192FB70F0002ADCA /* RoadTile_Strait.png */; };
+		E309728E192FB70F0002ADCA /* RoadTile_ThreeWay.png in Resources */ = {isa = PBXBuildFile; fileRef = E3097289192FB70F0002ADCA /* RoadTile_ThreeWay.png */; };
+		E309728F192FB70F0002ADCA /* RoadTile_Turn.png in Resources */ = {isa = PBXBuildFile; fileRef = E309728A192FB70F0002ADCA /* RoadTile_Turn.png */; };
+		E326D73D187734DF001DFB17 /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = E326D73C187734DF001DFB17 /* House.png */; };
+		E3300FAF1861F931000B6DF7 /* TrafficLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3300FAD1861F931000B6DF7 /* TrafficLight.cpp */; };
+		E3300FB21861FD9E000B6DF7 /* LightPole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3300FB01861FD9E000B6DF7 /* LightPole.cpp */; };
+		E35A33F918782F8100BCA4EC /* House.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35A33F718782F8100BCA4EC /* House.cpp */; };
+		E35A340018785C3000BCA4EC /* TrafficLight_Green2.png in Resources */ = {isa = PBXBuildFile; fileRef = E35A33FE18785C3000BCA4EC /* TrafficLight_Green2.png */; };
+		E35A340118785C3000BCA4EC /* TrafficLight_Red2.png in Resources */ = {isa = PBXBuildFile; fileRef = E35A33FF18785C3000BCA4EC /* TrafficLight_Red2.png */; };
+		E35A3403187AD39F00BCA4EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E35A3402187AD39F00BCA4EC /* Icon.png */; };
+		E3722B9618561B68009B5853 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3722B9518561B68009B5853 /* Background.jpg */; };
+		E3722B9918561C34009B5853 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722B9718561C34009B5853 /* World.cpp */; };
+		E3722B9C18561C3C009B5853 /* MapGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722B9A18561C3C009B5853 /* MapGenerator.cpp */; };
+		E3722B9F18561F24009B5853 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722B9D18561F24009B5853 /* Tile.cpp */; };
+		E3722BA218561F2B009B5853 /* DestinationTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722BA018561F2B009B5853 /* DestinationTile.cpp */; };
+		E3722BA518561F31009B5853 /* RoadTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722BA318561F31009B5853 /* RoadTile.cpp */; };
+		E3722BAC18571F51009B5853 /* Common.h in Sources */ = {isa = PBXBuildFile; fileRef = E3722BAB18571F51009B5853 /* Common.h */; };
+		E3722BAF18578443009B5853 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722BAD18578443009B5853 /* Vehicle.cpp */; };
+		E3722BB218578447009B5853 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722BB018578447009B5853 /* Car.cpp */; };
+		E3722BB71858E797009B5853 /* ATile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3722BB51858E797009B5853 /* ATile.cpp */; };
+		E37FDB481859EA2300439AD6 /* ATiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E37FDB461859EA2300439AD6 /* ATiles.cpp */; };
+		E3916BFE1855C90300AF7FE9 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3916BFD1855C90300AF7FE9 /* ResourcePath.mm */; };
+		E3916C011855C90300AF7FE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3916C001855C90300AF7FE9 /* main.cpp */; };
+		E3B008C5187094D10086CD58 /* WorldMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B008C4187094D10086CD58 /* WorldMap.png */; };
+		E3B008CA18743DB80086CD58 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3B008C818743DB80086CD58 /* TextureManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3097276192FB7060002ADCA /* Car1_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car1_blue.png; sourceTree = "<group>"; };
+		E3097277192FB7060002ADCA /* Car1_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car1_gold.png; sourceTree = "<group>"; };
+		E3097278192FB7060002ADCA /* Car1_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car1_green.png; sourceTree = "<group>"; };
+		E3097279192FB7060002ADCA /* Car1_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car1_red.png; sourceTree = "<group>"; };
+		E309727A192FB7060002ADCA /* Car2_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car2_blue.png; sourceTree = "<group>"; };
+		E309727B192FB7060002ADCA /* Car2_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car2_green.png; sourceTree = "<group>"; };
+		E309727C192FB7060002ADCA /* Car2_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car2_red.png; sourceTree = "<group>"; };
+		E309727D192FB7060002ADCA /* Car2_silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car2_silver.png; sourceTree = "<group>"; };
+		E3097286192FB70F0002ADCA /* RoadTile_Blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoadTile_Blank.png; sourceTree = "<group>"; };
+		E3097287192FB70F0002ADCA /* RoadTile_FourWay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoadTile_FourWay.png; sourceTree = "<group>"; };
+		E3097288192FB70F0002ADCA /* RoadTile_Strait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoadTile_Strait.png; sourceTree = "<group>"; };
+		E3097289192FB70F0002ADCA /* RoadTile_ThreeWay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoadTile_ThreeWay.png; sourceTree = "<group>"; };
+		E309728A192FB70F0002ADCA /* RoadTile_Turn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoadTile_Turn.png; sourceTree = "<group>"; };
+		E326D73C187734DF001DFB17 /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
+		E3300FAD1861F931000B6DF7 /* TrafficLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrafficLight.cpp; sourceTree = "<group>"; };
+		E3300FAE1861F931000B6DF7 /* TrafficLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLight.h; sourceTree = "<group>"; };
+		E3300FB01861FD9E000B6DF7 /* LightPole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightPole.cpp; sourceTree = "<group>"; };
+		E3300FB11861FD9E000B6DF7 /* LightPole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightPole.h; sourceTree = "<group>"; };
+		E35A33F718782F8100BCA4EC /* House.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = House.cpp; sourceTree = "<group>"; };
+		E35A33F818782F8100BCA4EC /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		E35A33FE18785C3000BCA4EC /* TrafficLight_Green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrafficLight_Green2.png; sourceTree = "<group>"; };
+		E35A33FF18785C3000BCA4EC /* TrafficLight_Red2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrafficLight_Red2.png; sourceTree = "<group>"; };
+		E35A3402187AD39F00BCA4EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E3722B9518561B68009B5853 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		E3722B9718561C34009B5853 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		E3722B9818561C34009B5853 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		E3722B9A18561C3C009B5853 /* MapGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapGenerator.cpp; sourceTree = "<group>"; };
+		E3722B9B18561C3C009B5853 /* MapGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapGenerator.h; sourceTree = "<group>"; };
+		E3722B9D18561F24009B5853 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		E3722B9E18561F24009B5853 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		E3722BA018561F2B009B5853 /* DestinationTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DestinationTile.cpp; sourceTree = "<group>"; };
+		E3722BA118561F2B009B5853 /* DestinationTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationTile.h; sourceTree = "<group>"; };
+		E3722BA318561F31009B5853 /* RoadTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoadTile.cpp; sourceTree = "<group>"; };
+		E3722BA418561F31009B5853 /* RoadTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoadTile.h; sourceTree = "<group>"; };
+		E3722BAB18571F51009B5853 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E3722BAD18578443009B5853 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		E3722BAE18578443009B5853 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		E3722BB018578447009B5853 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		E3722BB118578447009B5853 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E3722BB51858E797009B5853 /* ATile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATile.cpp; sourceTree = "<group>"; };
+		E3722BB61858E797009B5853 /* ATile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATile.h; sourceTree = "<group>"; };
+		E37FDB461859EA2300439AD6 /* ATiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATiles.cpp; sourceTree = "<group>"; };
+		E37FDB471859EA2300439AD6 /* ATiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATiles.h; sourceTree = "<group>"; };
+		E3916BF81855C90300AF7FE9 /* MotorCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3916BFC1855C90300AF7FE9 /* MotorCity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotorCity-Info.plist"; sourceTree = "<group>"; };
+		E3916BFD1855C90300AF7FE9 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		E3916BFF1855C90300AF7FE9 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		E3916C001855C90300AF7FE9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E3B008C4187094D10086CD58 /* WorldMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WorldMap.png; sourceTree = "<group>"; };
+		E3B008C818743DB80086CD58 /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		E3B008C918743DB80086CD58 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3916BF41855C90300AF7FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3097274192FB4460002ADCA /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				E3097276192FB7060002ADCA /* Car1_blue.png */,
+				E3097277192FB7060002ADCA /* Car1_gold.png */,
+				E3097278192FB7060002ADCA /* Car1_green.png */,
+				E3097279192FB7060002ADCA /* Car1_red.png */,
+				E309727A192FB7060002ADCA /* Car2_blue.png */,
+				E309727B192FB7060002ADCA /* Car2_green.png */,
+				E309727C192FB7060002ADCA /* Car2_red.png */,
+				E309727D192FB7060002ADCA /* Car2_silver.png */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		E3097275192FB4520002ADCA /* Roads */ = {
+			isa = PBXGroup;
+			children = (
+				E3097286192FB70F0002ADCA /* RoadTile_Blank.png */,
+				E3097287192FB70F0002ADCA /* RoadTile_FourWay.png */,
+				E3097288192FB70F0002ADCA /* RoadTile_Strait.png */,
+				E3097289192FB70F0002ADCA /* RoadTile_ThreeWay.png */,
+				E309728A192FB70F0002ADCA /* RoadTile_Turn.png */,
+			);
+			path = Roads;
+			sourceTree = "<group>";
+		};
+		E3300FB31861FDA4000B6DF7 /* TrafficLight */ = {
+			isa = PBXGroup;
+			children = (
+				E3300FAD1861F931000B6DF7 /* TrafficLight.cpp */,
+				E3300FAE1861F931000B6DF7 /* TrafficLight.h */,
+				E3300FB01861FD9E000B6DF7 /* LightPole.cpp */,
+				E3300FB11861FD9E000B6DF7 /* LightPole.h */,
+			);
+			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		E3722BA618561F35009B5853 /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				E3722B9D18561F24009B5853 /* Tile.cpp */,
+				E3722B9E18561F24009B5853 /* Tile.h */,
+				E3722BA018561F2B009B5853 /* DestinationTile.cpp */,
+				E3722BA118561F2B009B5853 /* DestinationTile.h */,
+				E3722BA318561F31009B5853 /* RoadTile.cpp */,
+				E3722BA418561F31009B5853 /* RoadTile.h */,
+				E35A33F718782F8100BCA4EC /* House.cpp */,
+				E35A33F818782F8100BCA4EC /* House.h */,
+			);
+			path = Tile;
+			sourceTree = "<group>";
+		};
+		E3722BAA1856328A009B5853 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E3722BAB18571F51009B5853 /* Common.h */,
+				E3722B9A18561C3C009B5853 /* MapGenerator.cpp */,
+				E3722B9B18561C3C009B5853 /* MapGenerator.h */,
+				E3B008C818743DB80086CD58 /* TextureManager.cpp */,
+				E3B008C918743DB80086CD58 /* TextureManager.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E3722BB31857844B009B5853 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				E37FDB491859EA2C00439AD6 /* Path finder */,
+				E3722BAD18578443009B5853 /* Vehicle.cpp */,
+				E3722BAE18578443009B5853 /* Vehicle.h */,
+				E3722BB018578447009B5853 /* Car.cpp */,
+				E3722BB118578447009B5853 /* Car.h */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		E37FDB491859EA2C00439AD6 /* Path finder */ = {
+			isa = PBXGroup;
+			children = (
+				E37FDB461859EA2300439AD6 /* ATiles.cpp */,
+				E37FDB471859EA2300439AD6 /* ATiles.h */,
+				E3722BB51858E797009B5853 /* ATile.cpp */,
+				E3722BB61858E797009B5853 /* ATile.h */,
+			);
+			name = "Path finder";
+			path = PathFinder;
+			sourceTree = "<group>";
+		};
+		E3916BEE1855C90300AF7FE9 = {
+			isa = PBXGroup;
+			children = (
+				E3916BFA1855C90300AF7FE9 /* MotorCity */,
+				E3916BF91855C90300AF7FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3916BF91855C90300AF7FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3916BF81855C90300AF7FE9 /* MotorCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3916BFA1855C90300AF7FE9 /* MotorCity */ = {
+			isa = PBXGroup;
+			children = (
+				E3916BFD1855C90300AF7FE9 /* ResourcePath.mm */,
+				E3916BFF1855C90300AF7FE9 /* ResourcePath.hpp */,
+				E3916C001855C90300AF7FE9 /* main.cpp */,
+				E3722B9718561C34009B5853 /* World.cpp */,
+				E3722B9818561C34009B5853 /* World.h */,
+				E3300FB31861FDA4000B6DF7 /* TrafficLight */,
+				E3722BAA1856328A009B5853 /* Common */,
+				E3722BA618561F35009B5853 /* Tile */,
+				E3722BB31857844B009B5853 /* Vehicle */,
+				E3916C021855C90300AF7FE9 /* Resources */,
+				E3916BFB1855C90300AF7FE9 /* Supporting Files */,
+			);
+			path = MotorCity;
+			sourceTree = "<group>";
+		};
+		E3916BFB1855C90300AF7FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3916BFC1855C90300AF7FE9 /* MotorCity-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3916C021855C90300AF7FE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3097275192FB4520002ADCA /* Roads */,
+				E3097274192FB4460002ADCA /* Cars */,
+				E35A3402187AD39F00BCA4EC /* Icon.png */,
+				E35A33FE18785C3000BCA4EC /* TrafficLight_Green2.png */,
+				E35A33FF18785C3000BCA4EC /* TrafficLight_Red2.png */,
+				E3B008C4187094D10086CD58 /* WorldMap.png */,
+				E326D73C187734DF001DFB17 /* House.png */,
+				E3722B9518561B68009B5853 /* Background.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3916BF71855C90300AF7FE9 /* MotorCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3916C0D1855C90300AF7FE9 /* Build configuration list for PBXNativeTarget "MotorCity" */;
+			buildPhases = (
+				E3916BF31855C90300AF7FE9 /* Sources */,
+				E3916BF41855C90300AF7FE9 /* Frameworks */,
+				E3916BF51855C90300AF7FE9 /* Resources */,
+				E3916BF61855C90300AF7FE9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorCity;
+			productName = MotorCity;
+			productReference = E3916BF81855C90300AF7FE9 /* MotorCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3916BEF1855C90300AF7FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Karl Persson";
+			};
+			buildConfigurationList = E3916BF21855C90300AF7FE9 /* Build configuration list for PBXProject "MotorCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3916BEE1855C90300AF7FE9;
+			productRefGroup = E3916BF91855C90300AF7FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3916BF71855C90300AF7FE9 /* MotorCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3916BF51855C90300AF7FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E309728B192FB70F0002ADCA /* RoadTile_Blank.png in Resources */,
+				E35A340018785C3000BCA4EC /* TrafficLight_Green2.png in Resources */,
+				E3097283192FB7060002ADCA /* Car2_green.png in Resources */,
+				E309728D192FB70F0002ADCA /* RoadTile_Strait.png in Resources */,
+				E35A3403187AD39F00BCA4EC /* Icon.png in Resources */,
+				E309728F192FB70F0002ADCA /* RoadTile_Turn.png in Resources */,
+				E3097281192FB7060002ADCA /* Car1_red.png in Resources */,
+				E309727E192FB7060002ADCA /* Car1_blue.png in Resources */,
+				E3722B9618561B68009B5853 /* Background.jpg in Resources */,
+				E309728C192FB70F0002ADCA /* RoadTile_FourWay.png in Resources */,
+				E3097285192FB7060002ADCA /* Car2_silver.png in Resources */,
+				E309727F192FB7060002ADCA /* Car1_gold.png in Resources */,
+				E3097280192FB7060002ADCA /* Car1_green.png in Resources */,
+				E326D73D187734DF001DFB17 /* House.png in Resources */,
+				E3B008C5187094D10086CD58 /* WorldMap.png in Resources */,
+				E309728E192FB70F0002ADCA /* RoadTile_ThreeWay.png in Resources */,
+				E3097284192FB7060002ADCA /* Car2_red.png in Resources */,
+				E3097282192FB7060002ADCA /* Car2_blue.png in Resources */,
+				E35A340118785C3000BCA4EC /* TrafficLight_Red2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3916BF61855C90300AF7FE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3916BF31855C90300AF7FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3722BA518561F31009B5853 /* RoadTile.cpp in Sources */,
+				E3722BA218561F2B009B5853 /* DestinationTile.cpp in Sources */,
+				E3916C011855C90300AF7FE9 /* main.cpp in Sources */,
+				E3300FB21861FD9E000B6DF7 /* LightPole.cpp in Sources */,
+				E3722BAC18571F51009B5853 /* Common.h in Sources */,
+				E37FDB481859EA2300439AD6 /* ATiles.cpp in Sources */,
+				E3722BAF18578443009B5853 /* Vehicle.cpp in Sources */,
+				E3300FAF1861F931000B6DF7 /* TrafficLight.cpp in Sources */,
+				E3916BFE1855C90300AF7FE9 /* ResourcePath.mm in Sources */,
+				E35A33F918782F8100BCA4EC /* House.cpp in Sources */,
+				E3722B9C18561C3C009B5853 /* MapGenerator.cpp in Sources */,
+				E3722BB218578447009B5853 /* Car.cpp in Sources */,
+				E3722BB71858E797009B5853 /* ATile.cpp in Sources */,
+				E3722B9918561C34009B5853 /* World.cpp in Sources */,
+				E3722B9F18561F24009B5853 /* Tile.cpp in Sources */,
+				E3B008CA18743DB80086CD58 /* TextureManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3916C0B1855C90300AF7FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		E3916C0C1855C90300AF7FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		E3916C0E1855C90300AF7FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MotorCity/MotorCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3916C0F1855C90300AF7FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MotorCity/MotorCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3916BF21855C90300AF7FE9 /* Build configuration list for PBXProject "MotorCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3916C0B1855C90300AF7FE9 /* Debug */,
+				E3916C0C1855C90300AF7FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3916C0D1855C90300AF7FE9 /* Build configuration list for PBXNativeTarget "MotorCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3916C0E1855C90300AF7FE9 /* Debug */,
+				E3916C0F1855C90300AF7FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3916BEF1855C90300AF7FE9 /* Project object */;
+}
