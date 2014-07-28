@@ -217,11 +217,11 @@
 		E3916BFA1855C90300AF7FE9 /* MotorCity */ = {
 			isa = PBXGroup;
 			children = (
-				E3916BFD1855C90300AF7FE9 /* ResourcePath.mm */,
 				E3916BFF1855C90300AF7FE9 /* ResourcePath.hpp */,
+				E3916BFD1855C90300AF7FE9 /* ResourcePath.mm */,
 				E3916C001855C90300AF7FE9 /* main.cpp */,
-				E3722B9718561C34009B5853 /* World.cpp */,
 				E3722B9818561C34009B5853 /* World.h */,
+				E3722B9718561C34009B5853 /* World.cpp */,
 				E3300FB31861FDA4000B6DF7 /* TrafficLight */,
 				E3722BAA1856328A009B5853 /* Common */,
 				E3722BA618561F35009B5853 /* Tile */,

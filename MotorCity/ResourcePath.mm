@@ -19,8 +19,7 @@ std::string resourcePath(void)
         NSLog(@"bundle is nil... thus no resources path can be found.");
 #endif
     } else {
-        NSString* path = [bundle resourcePath];
-        rpath = [path UTF8String] + std::string("/");
+        rpath = [[bundle resourcePath] UTF8String] + std::string("/");
     }
 
     [pool drain];
@@ -31,13 +30,9 @@ std::string resourcePath(void)
 // Get path of all car textures
 std::vector<std::string> carPaths(void)
 {
-    // Fetching path
-    NSString* bundlePath = [[NSBundle mainBundle] resourcePath];
-    NSString* carPath = [bundlePath stringByAppendingString:@"/Cars"];
-    
-    // Fetching files in the specific path
-    NSFileManager* fileManager = [NSFileManager defaultManager];
-    NSMutableArray* contents = [[fileManager contentsOfDirectoryAtPath:carPath error:nil] mutableCopy];
+    // Fetch files
+    NSString* carPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/Cars"];
+    NSMutableArray* contents = [[[NSFileManager defaultManager] contentsOfDirectoryAtPath:carPath error:nil] mutableCopy];
     
     // Remove non png
     for (NSString* fileName in [contents reverseObjectEnumerator]) {
@@ -51,5 +46,6 @@ std::vector<std::string> carPaths(void)
     for (NSString* fileName in contents) {
         results.push_back(std::string("Cars/") + [fileName UTF8String]);
     }
+	
     return results;
 }
